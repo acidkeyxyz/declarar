@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:nomina12="http://www.sat.gob.mx/nomina12" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Serie="20209Q" Folio="42123" Fecha="2020-09-14T09:32:25" Sello="rFt+viQ4jHHfWYzEDNXTIVMIeNQneQQMj6awkJ851FoGBnWXSHaoCj3YcKZNiJdc7ByGn6nPLICvLLxMCZ9abgx7Bm7duXT3ndzEe/KkiF5JFrZoptWTyafeg1tPT5eat4IKQn5FagWddsUlzBUYnaCn9dRdJOO0rDJrXxmQG9NUjrTCTPJK9cEvll6PXZWHhNu/zqMu7WmcKbPVTQM1/5vScKmWENesvS0yHK4wTfie5pgcxbEchtb97DXPG6TOgHA+Z8xzHB/uOjm+p7IVaVlFx1HAuN8YMKqe8fK8AAO/rVbgJWLQl9gx8BP2woCwfZWvoitN7hJFf/A6ukLV2Q==" FormaPago="99" NoCertificado="00001000000410118606" Certificado="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" SubTotal="524006.37" Descuento="96385.37" Moneda="MXN" Total="427621.00" TipoDeComprobante="N" MetodoPago="PUE" LugarExpedicion="11560" Version="3.3" xmlns:cfdi="http://www.sat.gob.mx/cfd/3">
+    <cfdi:Emisor Rfc="ASS1503185X0" Nombre="AMDOCS SOFTWARE SERVICES AMERICAS S DE RL DE CV" RegimenFiscal="601" />
+    <cfdi:Receptor Rfc="MEOL8911044M9" Nombre="MENDOZA OSORIO LUIS SALVADOR" UsoCFDI="P01" />
+    <cfdi:Conceptos>
+        <cfdi:Concepto ClaveProdServ="84111505" Cantidad="1" ClaveUnidad="ACT" Descripcion="Pago de nómina" ValorUnitario="524006.37" Importe="524006.37" Descuento="96385.37" />
+    </cfdi:Conceptos>
+    <cfdi:Complemento>
+        <nomina12:Nomina xsi:schemaLocation="http://www.sat.gob.mx/nomina12 http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina12.xsd" TipoNomina="O" FechaPago="2020-09-18" FechaInicialPago="2020-09-15" FechaFinalPago="2020-09-15" NumDiasPagados="1" TotalPercepciones="96867.19" TotalDeducciones="27410.55" TotalOtrosPagos="64894.22" Version="1.2">
+            <nomina12:Emisor RegistroPatronal="Z2942822102" />
+            <nomina12:Receptor SalarioDiarioIntegrado="2178.26" SalarioBaseCotApor="1808.43" PeriodicidadPago="04" RiesgoPuesto="1" Puesto="SOFTWARE DEVELOPER" ClaveEntFed="JAL" Departamento="0-Base" TipoRegimen="02" TipoJornada="01" Sindicalizado="No" TipoContrato="01" Antigüedad="P186W" FechaInicioRelLaboral="2017-02-20" NumSeguridadSocial="94118919581" NumEmpleado="151912" Curp="MEOL891104HMCNSS03" />
+            <nomina12:Percepciones TotalSueldos="96867.19" TotalGravado="94260.79" TotalExento="2606.40">
+                <nomina12:Percepcion TipoPercepcion="038" Clave="1900" Concepto="1900_VACACIONES PENDIENTES" ImporteGravado="6198.75" ImporteExento="0.00" />
+                <nomina12:Percepcion TipoPercepcion="038" Clave="1901" Concepto="1901_PROPORCION DE VACACIONES" ImporteGravado="14239.94" ImporteExento="0.00" />
+                <nomina12:Percepcion TipoPercepcion="038" Clave="1214" Concepto="1214_SPECIAL BONUS" ImporteGravado="21915.41" ImporteExento="0.00" />
+                <nomina12:Percepcion TipoPercepcion="038" Clave="1353" Concepto="1353_GROSS UP" ImporteGravado="10916.02" ImporteExento="0.00" />
+                <nomina12:Percepcion TipoPercepcion="029" Clave="1911" Concepto="1911_VALES DE DESPENSA FINIQUITO" ImporteGravado="1848.30" ImporteExento="0.00" />
+                <nomina12:Percepcion TipoPercepcion="030" Clave="1921" Concepto="1921_VALES DE RESTAURANTE FINIQUITO" ImporteGravado="1355.42" ImporteExento="0.00" />
+                <nomina12:Percepcion TipoPercepcion="002" Clave="1902" Concepto="1902_PROPORCION DE AGUINALDO" ImporteGravado="30635.75" ImporteExento="2606.40" />
+                <nomina12:Percepcion TipoPercepcion="021" Clave="1903" Concepto="1903_PROPORCION DE PRIMA VACACIONAL" ImporteGravado="7151.20" ImporteExento="0.00" />
+            </nomina12:Percepciones>
+            <nomina12:Deducciones TotalImpuestosRetenidos="27410.55" TotalOtrasDeducciones="0.00">
+                <nomina12:Deduccion TipoDeduccion="002" Clave="2002" Concepto="2002_ISR AJUSTE CIERRE DE MES" Importe="27410.55" />
+            </nomina12:Deducciones>
+            <nomina12:OtrosPagos>
+                <nomina12:OtroPago TipoOtroPago="999" Clave="1242" Concepto="1242_DEVOLUCION FONDO DE AHORRO EMPRESA" Importe="32447.11" />
+                <nomina12:OtroPago TipoOtroPago="999" Clave="1255" Concepto="1255_DEVOLUCION FONDO DE AHORRO EMPLEADO" Importe="32447.11" />
+                <nomina12:OtroPago TipoOtroPago="002" Clave="199" Concepto="199_SUBSIDIO AL EMPLEO PAGADO EN EFECTIVO" Importe="0.00">
+                    <nomina12:SubsidioAlEmpleo SubsidioCausado="0" />
+                </nomina12:OtroPago>
+            </nomina12:OtrosPagos>
+        </nomina12:Nomina>
+        <nomina12:Nomina xsi:schemaLocation="http://www.sat.gob.mx/nomina12 http://www.sat.gob.mx/sitio_internet/cfd/nomina/nomina12.xsd" TipoNomina="E" FechaPago="2020-09-18" FechaInicialPago="2020-09-15" FechaFinalPago="2020-09-15" NumDiasPagados="1" TotalPercepciones="362244.96" TotalDeducciones="68974.82" Version="1.2">
+            <nomina12:Emisor />
+            <nomina12:Receptor PeriodicidadPago="99" ClaveEntFed="JAL" TipoRegimen="13" TipoContrato="99" NumEmpleado="151912" Curp="MEOL891104HMCNSS03" />
+            <nomina12:Percepciones TotalSeparacionIndemnizacion="362244.96" TotalGravado="330968.16" TotalExento="31276.80">
+                <nomina12:Percepcion TipoPercepcion="025" Clave="1905" Concepto="1905_20 DIAS POR AÑO" ImporteGravado="155636.68" ImporteExento="0.00" />
+                <nomina12:Percepcion TipoPercepcion="022" Clave="1906" Concepto="1906_PRIMA DE ANTIGÜEDAD" ImporteGravado="10564.88" ImporteExento="0.00" />
+                <nomina12:Percepcion TipoPercepcion="025" Clave="1904" Concepto="1904_LIQUIDACION 90 DIAS" ImporteGravado="164766.60" ImporteExento="31276.80" />
+                <nomina12:SeparacionIndemnizacion TotalPagado="362244.96" NumAñosServicio="4" UltimoSueldoMensOrd="46841.92" IngresoAcumulable="46841.92" IngresoNoAcumulable="284126.24" />
+            </nomina12:Percepciones>
+            <nomina12:Deducciones TotalImpuestosRetenidos="68974.82">
+                <nomina12:Deduccion TipoDeduccion="002" Clave="2000" Concepto="2000_ISR LIQUIDACION" Importe="68974.82" />
+            </nomina12:Deducciones>
+        </nomina12:Nomina>
+        <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" FechaTimbrado="2020-09-14T09:43:30" UUID="6c504884-1e64-429f-a3a9-921f81a46129" NoCertificadoSAT="00001000000406144089" SelloCFD="rFt+viQ4jHHfWYzEDNXTIVMIeNQneQQMj6awkJ851FoGBnWXSHaoCj3YcKZNiJdc7ByGn6nPLICvLLxMCZ9abgx7Bm7duXT3ndzEe/KkiF5JFrZoptWTyafeg1tPT5eat4IKQn5FagWddsUlzBUYnaCn9dRdJOO0rDJrXxmQG9NUjrTCTPJK9cEvll6PXZWHhNu/zqMu7WmcKbPVTQM1/5vScKmWENesvS0yHK4wTfie5pgcxbEchtb97DXPG6TOgHA+Z8xzHB/uOjm+p7IVaVlFx1HAuN8YMKqe8fK8AAO/rVbgJWLQl9gx8BP2woCwfZWvoitN7hJFf/A6ukLV2Q==" SelloSAT="n7bWk4kdqtQ2wA2xSTEorSdbbGkYfrNTZ3iVVwdE7Hv5TxIId2tOSRTEr3z7njO8RFQCAqNCNPdWjkvR1MJ9fAGT2AI+uzY+1fr1h7YgIKNtAXfIU+4vIROidRCwapVNaM8013JQSCyPAZ7RnXoGJnKNHwMXRs9y2jjzQNu8IRaSZLiupaquSAaZzto4RLXzAKV1P8DftEzvh48BQJAoxOPspBl0/ypoAm0QwhhdXqdSoHGeg0LWuBk8uJj+VDIXGbOPQwIhlKAEdzQnGF4gV+Iyh7f3Dg7mKPgl5NY9rA6zsSB96cfQHD1BKAnqFz19Z1MwoNsUVp3FF2cQu84P2Q==" RfcProvCertif="CAD100607RY8" />
+    </cfdi:Complemento>
+</cfdi:Comprobante>

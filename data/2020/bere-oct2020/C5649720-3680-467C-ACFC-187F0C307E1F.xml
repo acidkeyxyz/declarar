@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="MIIGCTCCA/GgAwIBAgIUMDAwMDEwMDAwMDA0MTE4NTEwMDkwDQYJKoZIhvcNAQELBQAwggGyMTgwNgYDVQQDDC9BLkMuIGRlbCBTZXJ2aWNpbyBkZSBBZG1pbmlzdHJhY2nDs24gVHJpYnV0YXJpYTEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMR8wHQYJKoZIhvcNAQkBFhBhY29kc0BzYXQuZ29iLm14MSYwJAYDVQQJDB1Bdi4gSGlkYWxnbyA3NywgQ29sLiBHdWVycmVybzEOMAwGA1UEEQwFMDYzMDAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBEaXN0cml0byBGZWRlcmFsMRQwEgYDVQQHDAtDdWF1aHTDqW1vYzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMV0wWwYJKoZIhvcNAQkCDE5SZXNwb25zYWJsZTogQWRtaW5pc3RyYWNpw7NuIENlbnRyYWwgZGUgU2VydmljaW9zIFRyaWJ1dGFyaW9zIGFsIENvbnRyaWJ1eWVudGUwHhcNMTgwODE3MTc0MDUwWhcNMjIwODE3MTc0MDUwWjCBqTEgMB4GA1UEAxMXRURVQVJETyBTQU5DSEVaIEFCVU5ESVMxIDAeBgNVBCkTF0VEVUFSRE8gU0FOQ0hFWiBBQlVORElTMSAwHgYDVQQKExdFRFVBUkRPIFNBTkNIRVogQUJVTkRJUzEWMBQGA1UELRMNU0FBRTg2MTAwNkY1NDEbMBkGA1UEBRMSU0FBRTg2MTAwNkhKQ05CRDAzMQwwCgYDVQQLEwNTQVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCjPJ3Vcb6awGabeAxjIF5UF2OqaG8tSYf7Wd1md5J0J7+dTdCPmg0KbKFOHBVztqKcGmtAdig6ekpZ3LCSomqfLN0IbSQxzPhO1/9xLJYP2SHXFz6FarVWfb8b+lZogZRvSUM6uD5f2EBvbWn8VrUwWZqOzehngRdFSHsHy0vQ0f1+MOAz2yv9gZ6cFLYF5PjWwB9jH/UaO88ll1HJEMyIAgCnBOAEfwn7uhSB7kJM12/fFE87WUqUKWj9ShTpPREbcdr1CfG4W9LefsbNkcRmE+/8uxc3AptjJE1AnjdGKJ+Ma9YY3SQGBcZ7mRHf9dGqzDQnCfR8RZB/tTyI2RszAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBCwUAA4ICAQBcga+777KEWoC+kuWI3CoJAVefrpsv/VQVYH1g53SQd1Gd4G6lJ0140V8SwQR453YZ4Vvs1IZyErCyETe1XGPby9XzEzkETZlYFK+7jwuqokN0+ayV0z3Pjy+VeAh4VV1MLh1gP1qEkCnABjruo7WTA8V9KGifHwjS0JkoHhiDJKaDdGqbeRhTdKgdS2i7yVEsmna7DAHpjLJhAyv86S0ET6s5AgfoMPdNym40JLmPmpAhcmcrQYOfXwidbmnJDDevaVLf0XptEaRWTz82+S0oy3qB4b0z8+X9ygmz2cmmJjxHtlcnDqgnkqkWeN/BlQtELwHWjoAq9d3QzMAYKZEJUXEYRDAU3EvaCigdzGmrDnuPFhI99TkKEvlYKY/Po3jHJeMsOO4zerAox/NI1q6a91XaUeumbAYr5m6Rth2NUN5ka+H4xQ5BBGOqAK4SpGCIPunWdkgzQLiVeul4P+DCTCmXZhIydpclb4xfEmVYbcQ0ulnR7UWfGsT3GZFYu53O6J2saiJ6z5Rry2hPOxGP6LJqoNQ5+fceDQaP2IOAEm5aQWVyEnVD7/bCQBWWR/AVor6lYyfTfCP+nWl3es4arkjHUZZqq5Hr2FxpR0R15NmmXec4RNW7MELPIdj3/rPWuYNOASTuW9eQ/G8D3MnM9XCBEJL5N4gEXJSvU+aE3A==" Fecha="2020-10-05T11:46:24" Folio="17381" FormaPago="28" LugarExpedicion="45640" MetodoPago="PUE" Moneda="MXN" NoCertificado="00001000000411851009" Sello="lTO9F+eqrIJ5JUnd/V/UZmjrdpE1P1q4dLyi87XpiFiHaUWs9ZOyMDV7SLgixG/7CCTGKbS+IhX62xOQK2l/GN5Fv6TOlfjZq4SptfK7M7H4LOAPlJ1g1Ex79BVPgoOTDnxUwuWiPIqUs3pFM0jb1AD5kowVHMAJemnQtDnoJnlULDA9G8dLLYkeBISHCvdHc3khqm6rm6DsMqee6Zuo/Hx4BqtuDLNszDQ1PnisWe4TNXxdoheiMmddWDev5+xssV6v8e16/KLsnhABSm1VIVRe/njZEKPvL9H5F/ob6AVkRPWrN3a4cmncv3BBV9Jg5mTN6cuDm4/JX4LA29Zz/A==" Serie="TE" SubTotal="7200.88" TipoDeComprobante="I" Total="8353.02" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+  <cfdi:Emisor Nombre="EDUARDO SANCHEZ ABUNDIS" RegimenFiscal="612" Rfc="SAAE861006F54" />
+  <cfdi:Receptor Nombre="MENDOZA OSORIO LUIS SALVADOR" Rfc="MEOL8911044M9" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="30" ClaveProdServ="30102404" ClaveUnidad="H87" Descripcion="VARILLA 3/8&quot;" Importe="3041.40" Unidad="PZ" ValorUnitario="101.38">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="3041.40" Importe="486.624" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="25" ClaveProdServ="01010101" ClaveUnidad="KGM" Descripcion="ALAMBRE RECOCIDO" Importe="538.7931" Unidad="KG" ValorUnitario="21.551724">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="538.7931" Importe="86.206896" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="10" ClaveProdServ="31162002" ClaveUnidad="KGM" Descripcion="CLAVO 4&quot;" Importe="258.62068" Unidad="KG" ValorUnitario="25.862068">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="258.62068" Importe="41.379309" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="10" ClaveProdServ="31162002" ClaveUnidad="KGM" Descripcion="CLAVO 2 1/2&quot;" Importe="258.62068" Unidad="KG" ValorUnitario="25.862068">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="258.62068" Importe="41.379309" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="4" ClaveProdServ="01010101" ClaveUnidad="H87" Descripcion="REJACERO1.50*250 GALVA/PINTADA" Importe="2482.76" Unidad="pz" ValorUnitario="620.69">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="2482.76" Importe="397.2416" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2" ClaveProdServ="30102304" ClaveUnidad="H87" Descripcion="TUB. 2&quot; C-18" Importe="600.00" Unidad="PZ" ValorUnitario="300.00">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="600.00" Importe="96.00" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="2" ClaveProdServ="30102204" ClaveUnidad="H87" Descripcion="PLACA 10 X 10 1/4 &quot;" Importe="20.689654" Unidad="pz" ValorUnitario="10.344827">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="20.689654" Importe="3.310345" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="1152.14">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="1152.14" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2020-10-05T11:46:29" NoCertificadoSAT="00001000000412961981" RfcProvCertif="FCG840618N51" SelloCFD="lTO9F+eqrIJ5JUnd/V/UZmjrdpE1P1q4dLyi87XpiFiHaUWs9ZOyMDV7SLgixG/7CCTGKbS+IhX62xOQK2l/GN5Fv6TOlfjZq4SptfK7M7H4LOAPlJ1g1Ex79BVPgoOTDnxUwuWiPIqUs3pFM0jb1AD5kowVHMAJemnQtDnoJnlULDA9G8dLLYkeBISHCvdHc3khqm6rm6DsMqee6Zuo/Hx4BqtuDLNszDQ1PnisWe4TNXxdoheiMmddWDev5+xssV6v8e16/KLsnhABSm1VIVRe/njZEKPvL9H5F/ob6AVkRPWrN3a4cmncv3BBV9Jg5mTN6cuDm4/JX4LA29Zz/A==" SelloSAT="cjq5+eKbt/xG71+dun+IQY77il4UTrfvjsiSersvdmviwz+f55GIuTIXGfnvz2N92qGdgE2liFFVKTXiAeGGq4P4I4CoN1LgGY3y6xRb7cKGBwblUx8LcwQ8JsqJSap0LJFSfrrfEQO4brjtnDuFJXlW1g3xzjIlH9Nd73YBDyXSee1VuKOv3hyffUiS88KPx7kc+tZsqsjDtZw0Lxd54O2iQESRBtBJ1fI4AIF9e0cOeY/R8hdRvLxION5N3SaiRyWktN4iSiFRzVJliZx0ymoKk5WlxgjIsRQrNap0/cd2NvEZeTFSL/Y7+uJ+mvJleenHS2QJPyXZH+08M1b3OA==" UUID="C5649720-3680-467C-ACFC-187F0C307E1F" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/timbrefiscaldigital/TimbreFiscalDigitalv11.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
+

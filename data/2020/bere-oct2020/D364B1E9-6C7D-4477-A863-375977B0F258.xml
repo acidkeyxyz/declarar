@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" Version="3.3" Serie="FBAA" Folio="1455295" Fecha="2020-10-06T13:31:29" Sello="KwUPtAG4Yh3XBCvrMcZ1w5l4j02EZ/MNK51Xu9pD7v29X54kaLfzuIP8rJ14seIIDRQ8S3JCtCnKiGOhPcO/yVHCA5RtLxHdJDRaG55X9WqHQ+N9auZM8pd3Pw8FBhWB+DXh4p6WawxDckrYUbnkMK1hfq2qopbyMOWuIIsL9/0+kP3S8Am+0u8xObCfcqTa44J4x/S5BunzQ9wjHYVcqVYiLjNwzWdz3V5TUyUggAXZguQXYh1gfVktYBsvP4RGvBLnDNyRyFw9iqCt4wc8GTLH7qH7W5dxsd9ydE0anwAo5vKAVQ/vhyJdPhuRSS7Gtm2+OpzBC8gTnfJk6tUWUw==" FormaPago="28" NoCertificado="00001000000410489165" Certificado="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" SubTotal="9481.90" Descuento="0.00" Moneda="MXN" TipoCambio="1" Total="10999.00" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="45040">
+   <cfdi:Emisor Rfc="SOM101125UEA" Nombre="SEARS OPERADORA MEXICO, SA DE CV" RegimenFiscal="623" />
+   <cfdi:Receptor Rfc="MEOL8911044M9" Nombre="Luis Salvador Mendoza Osorio" UsoCFDI="G03" />
+   <cfdi:Conceptos>
+      <cfdi:Concepto ClaveProdServ="52161560" NoIdentificacion="18096349" Cantidad="1" ClaveUnidad="H87" Unidad="PZA" Descripcion="NANOCELL LG 49 AI THINQ 49NANO" ValorUnitario="6764.66" Importe="6764.66" Descuento="0.00">
+         <cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="6764.66" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1082.34" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos>
+      </cfdi:Concepto>
+      <cfdi:Concepto ClaveProdServ="45111809" NoIdentificacion="24636913" Cantidad="1" ClaveUnidad="H87" Unidad="PZA" Descripcion="MUEBLE DE PARED CBRACKET VALER" ValorUnitario="2172.41" Importe="2172.41" Descuento="0.00">
+         <cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="2172.41" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="347.59" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos>
+      </cfdi:Concepto>
+      <cfdi:Concepto ClaveProdServ="26121604" NoIdentificacion="42451561" Cantidad="1" ClaveUnidad="H87" Unidad="PZA" Descripcion="CABLE HDMI Y LIMPIADOR DE PANT" ValorUnitario="544.83" Importe="544.83" Descuento="0.00">
+         <cfdi:Impuestos>
+            <cfdi:Traslados>
+               <cfdi:Traslado Base="544.83" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="87.17" />
+            </cfdi:Traslados>
+         </cfdi:Impuestos>
+      </cfdi:Concepto>
+   </cfdi:Conceptos>
+   <cfdi:Impuestos TotalImpuestosTrasladados="1517.10">
+      <cfdi:Traslados>
+         <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1517.10" />
+      </cfdi:Traslados>
+   </cfdi:Impuestos>
+   <cfdi:Complemento>
+      <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="d364b1e9-6c7d-4477-a863-375977b0f258" FechaTimbrado="2020-10-06T13:34:23" RfcProvCertif="FID080111867" SelloCFD="KwUPtAG4Yh3XBCvrMcZ1w5l4j02EZ/MNK51Xu9pD7v29X54kaLfzuIP8rJ14seIIDRQ8S3JCtCnKiGOhPcO/yVHCA5RtLxHdJDRaG55X9WqHQ+N9auZM8pd3Pw8FBhWB+DXh4p6WawxDckrYUbnkMK1hfq2qopbyMOWuIIsL9/0+kP3S8Am+0u8xObCfcqTa44J4x/S5BunzQ9wjHYVcqVYiLjNwzWdz3V5TUyUggAXZguQXYh1gfVktYBsvP4RGvBLnDNyRyFw9iqCt4wc8GTLH7qH7W5dxsd9ydE0anwAo5vKAVQ/vhyJdPhuRSS7Gtm2+OpzBC8gTnfJk6tUWUw==" NoCertificadoSAT="00001000000405112669" SelloSAT="WQgGiNFZ8187ttLSs1vyBA826piFfMkF6HUoajzUPiEUs1QgIKRYUcZoOTZKbvT5/appb32dkRRmx90Jeb+JErIXvyGlzQbN1eg77Qh5ucJk8DtxC+VNpVY+SuAt5dMGN0bF/aBErP10Mdn1SNvQNw7uJJq4d6MYUAKNyxNOS+rBbpKNwbroCB/lDWul12GUIpkNgYr962bHzckTREiqMi0vDC9z0Mq8iWqVPOhcEABeDwj31h5pEwPymxdntOeVtaQSzFX1lD+gvflEbiDtTGPeb0+5PgjGu+XncWD89ZyUQRvf+DNOCnXuQNNsPKKY/Yo0qQVMYI7llx6Y3FTLCA==" />
+   </cfdi:Complemento>
+</cfdi:Comprobante>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="MIIGETCCA/mgAwIBAgIUMDAwMDEwMDAwMDA1MDU1NjkyNDUwDQYJKoZIhvcNAQELBQAwggGEMSAwHgYDVQQDDBdBVVRPUklEQUQgQ0VSVElGSUNBRE9SQTEuMCwGA1UECgwlU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEaMBgGA1UECwwRU0FULUlFUyBBdXRob3JpdHkxKjAoBgkqhkiG9w0BCQEWG2NvbnRhY3RvLnRlY25pY29Ac2F0LmdvYi5teDEmMCQGA1UECQwdQVYuIEhJREFMR08gNzcsIENPTC4gR1VFUlJFUk8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQQ0lVREFEIERFIE1FWElDTzETMBEGA1UEBwwKQ1VBVUhURU1PQzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMVwwWgYJKoZIhvcNAQkCE01yZXNwb25zYWJsZTogQURNSU5JU1RSQUNJT04gQ0VOVFJBTCBERSBTRVJWSUNJT1MgVFJJQlVUQVJJT1MgQUwgQ09OVFJJQlVZRU5URTAeFw0yMDEwMzEyMTE2NDVaFw0yNDEwMzEyMTE2NDVaMIHfMSswKQYDVQQDEyJDT01FUkNJQUxJWkFET1JBIERFIE1PVE9TIFNBIERFIENWMSswKQYDVQQpEyJDT01FUkNJQUxJWkFET1JBIERFIE1PVE9TIFNBIERFIENWMSswKQYDVQQKEyJDT01FUkNJQUxJWkFET1JBIERFIE1PVE9TIFNBIERFIENWMSUwIwYDVQQtExxDTU85NzA3MTYzRjAgLyBWRUpSNzMxMjI4NjQ3MR4wHAYDVQQFExUgLyBWRUpSNzMxMjI4SE5UTE1DMDMxDzANBgNVBAsTBkNPTU9UTzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAI7sqOwaE/K0NDkQEWWiJg7BXUN8L+RHMWEahLntGAo9lhwoa/AMRyT9MfncH3eRk0Uzgm3L6yUy5BqjuhD+9TGOefvX6Zmpj6vj10bRAmrBgFULiLdK+6bqyg4Oe21TV5cqci4r+8bx2xtzY3FrdNbUY6RQHGOM5UCdKS8JMpnZU67OK+8Vv+tOydssnPOJ2jHVOzSHaT+Q0B+lMpmX2ttn8kyejb0PvHWwmix+LPGCe+DRA/jSByb9FES/m0fCOhwQHQG0Bit4QQnsd3nxhmq1WYNiR1NKuPAjHT+qdrGi8oWZj2VY80kmdBrsgy++jS2ffY7BQHY3ASSwdswG9+kCAwEAAaMdMBswDAYDVR0TAQH/BAIwADALBgNVHQ8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBAFzg2EnDEkFdm0Hl0KTaRXOFX53RDrp1NtjaifADrVdE6cnAJ8uAKPGI5cQfMGc7U7ZyuwhfJdIhLKpyRPmaG/uursC2fq1B24KsqE49i3UO5JhKCuxDiB4eO4Q1eH+WxGmyXBkGkSJ9EXmsuzkcTy9ylKzUUVfOVXa/MxU3UbjkYhNbJrrjnCkZ5vTSecJRKAm+yZqhEEbivhkY2KtMOAPO1sBarsszqjOztJ+iftcdIhEa6jmVvRUtdPHtw28+EtPX9CBiSd2l6MEIHSSU6ls62D1IUQ7De/y9pTqWh5tE6Ha2zyLY0t7jJTcx29oGU2LMYUKom0zN1MEvWR8MViJnJZDtossk2kMN6AxHaam9gLTjmQ3EwSjjRT852BYfG9Ui3YfQLCCalRd1oE6QsgIH+uBqdGaAcjo3F8FRSOVYIa42zc2HOzddU+Pg2NvVRNUEDypeBjCpi6Qsv8ba1AdgX8YS9tUCN35gSKucmifFuSQPtdVC5rDS8mHVG3MejcNlOn0NPItUPk6iA+3NP7QFfOxZMDmv21RK+d7wKrz6Fr0H6d+P2FONb406GjTC17eF6+aNTXH7ORr6OIOapNwciNQOdn+D4cTtBH8wYsdMLE7LRzKXUlWD3G0nQuCNYTXF66sPlRgIjYSCa/ZLo4Be48FsDguZKJeqE496RHxs" CondicionesDePago="CONTADO" Fecha="2021-07-27T12:01:21" Folio="3018680" FormaPago="28" LugarExpedicion="45070" MetodoPago="PUE" Moneda="MXN" NoCertificado="00001000000505569245" Sello="R0f7UJ2xGf1aUiw03w2CvAd4gLi+0A5oNnt5zDOleUGV5em4t5LsFXmrUCko1uYAup7NDDO/8mH9cRbctQ2Rml9q0msfHZldw7D2ro8bd+gJ5GCPJF0I76zGGBh3bDNcXhNayi21nAyNaUgLp36W2q+KLtRx/bK4vwMnRKy/pcsXHnLl19QbF3QiLOyq6F7COkN96g0YDHQsk+3JN1DjJOalQH92qKzkximeTmwKQoHg8HiqZ6aGZ2qgwXPviDd8w+q+DHbF6XT4vy92y6rRrvcBEPuuU4PLgWmHbYcNOYl6fQKJCO8+Thzfnp9/QVmbsVw7sF3Llds1RV+nXCV2cA==" Serie="ZPR" SubTotal="440.16" TipoCambio="1" TipoDeComprobante="I" Total="510.59" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+  <cfdi:Emisor Nombre="COMERCIALIZADORA DE MOTOS, S.A. DE C.V." RegimenFiscal="601" Rfc="CMO9707163F0" />
+  <cfdi:Receptor Nombre="BERENICE LOPERENA PEREZ" Rfc="LOPB9207079M3" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="25171700" ClaveUnidad="H87" Descripcion="ZAPATAS DE FRENO" Importe="188.10" NoIdentificacion="06430KRP980" Unidad="PIEZA" ValorUnitario="188.10">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="188.10" Importe="30.10" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="26101700" ClaveUnidad="H87" Descripcion="CABLECOMP, EMBRAGUE" Importe="139.79" NoIdentificacion="22870KPNA00" Unidad="PIEZA" ValorUnitario="139.79">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="139.79" Importe="22.37" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto Cantidad="1.00" ClaveProdServ="26101700" ClaveUnidad="H87" Descripcion="LEVER COMP., R. MANGO" Importe="112.27" NoIdentificacion="53175KFJ900" Unidad="PIEZA" ValorUnitario="112.27">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="112.27" Importe="17.96" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="70.43">
+    <cfdi:Traslados>
+      <cfdi:Traslado Importe="70.43" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" FechaTimbrado="2021-07-27T12:04:22" NoCertificadoSAT="00001000000412961981" RfcProvCertif="FCG840618N51" SelloCFD="R0f7UJ2xGf1aUiw03w2CvAd4gLi+0A5oNnt5zDOleUGV5em4t5LsFXmrUCko1uYAup7NDDO/8mH9cRbctQ2Rml9q0msfHZldw7D2ro8bd+gJ5GCPJF0I76zGGBh3bDNcXhNayi21nAyNaUgLp36W2q+KLtRx/bK4vwMnRKy/pcsXHnLl19QbF3QiLOyq6F7COkN96g0YDHQsk+3JN1DjJOalQH92qKzkximeTmwKQoHg8HiqZ6aGZ2qgwXPviDd8w+q+DHbF6XT4vy92y6rRrvcBEPuuU4PLgWmHbYcNOYl6fQKJCO8+Thzfnp9/QVmbsVw7sF3Llds1RV+nXCV2cA==" SelloSAT="i3ca7gOsoysT86aaxfMIL08ANhl7e2bnc6qqbZPN6eMTKIfj/hVviJsEQHEDwHDnq60HEkyFaTkVDQeyMV7zwLonRilwrtjq82KV/lgd7SPoMdGoFHv4CZvcfuggQC3Qkjc/u7vhWpKiT/oVKArwBuXCFf/mE0Cc3IOulK6w6zn92oKxSbNXzK3I2RSctazqIjZWS8JqRsRP0jt6HJWELdBY3imuawrWkbvyq/HSMFy2zbcuc9A9kz1JlC5XJJTk67O69M+DHZjgHZy1xYfY0IxohbQmeKunIisLLb7NcGss7Gr/AS5jan9LRO22375JZLBkClF483tLy6S7nSLPeg==" UUID="39C8FA3D-CF4D-4424-B137-B459DE0C89BB" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" />
+  </cfdi:Complemento>
+</cfdi:Comprobante>
+

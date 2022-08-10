@@ -1,0 +1,5 @@
+data/
+out/
+src/node_modules/*
+node_modules/
+*.csv

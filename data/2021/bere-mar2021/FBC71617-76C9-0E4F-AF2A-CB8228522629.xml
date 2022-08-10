@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" Version="3.3" Serie="C" Folio="93638" Fecha="2021-03-04T14:46:45" Sello="cB/Tiy/PWnFowTbSVONnwWf6ClPkx3Bg61u8lgID14Z0cTkJAoLq/yNa1j9k7d+vZPTtC6VKhLKUFO8dm7YITZAhZnQPJGRn2mrJ1LNkbGrfO9BAtFSxuiGlZK7qvRORA2Z3g5oFhOgOMZl5YZgLq0ZA++izoEVl8gqyGngJVCL8AFsEaGatU0utg6Caxw7SwDTsR8DHWlBzggYCfmdBUhFf7xV7BGapQ1WmPwI07TgTOvmAF1JnJKT2HV5e81Ad9ykG2GjjX0tmgCsbjc05epPKKvfUTIu4FyX0tpQmDyd0nWQIckJICisvt5FROW+9LFRjnMVdRF9H6ALMXyqt4A==" FormaPago="01" NoCertificado="00001000000408442560" Certificado="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" SubTotal="1113.59" Moneda="MXN" Total="1291.76" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="45234">
+  <cfdi:Emisor Rfc="GOGJ910908DE6" Nombre="JORGE ALBERTO GOMEZ GONZALEZ" RegimenFiscal="612" />
+  <cfdi:Receptor Rfc="LOPB9207079M3" Nombre="BERENICE LOPERENA PEREZ" UsoCFDI="G03" />
+  <cfdi:Conceptos>
+    <cfdi:Concepto ClaveProdServ="26121600" NoIdentificacion="KOBREX8M" Cantidad="28" ClaveUnidad="LM" Unidad="Metro" Descripcion="CABLE KOBREX THWLS CAL.8 X METRO" ValorUnitario="20.80" Importe="582.40">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="582.40" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="93.184" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="32131023" NoIdentificacion="BMEDIU" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="BASE P/WATTORIMETRO P/4 TERMINALES CAT 355S. E8" ValorUnitario="105.21" Importe="105.21">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="105.21" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="16.8336" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="40171520" NoIdentificacion="P-LNA32-050" Cantidad="0.04" ClaveUnidad="XRO" Unidad="Rollo" Descripcion="POLIFLEX NARANJA 1&quot; SIN GUIA PLASTICA ROLLO 50M" ValorUnitario="757.35" Importe="30.29">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="30.29" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="4.8464" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="40171520" NoIdentificacion="P-LNA20-300M" Cantidad="1" ClaveUnidad="LM" Unidad="Metro" Descripcion="POLIFLEX NARANJA DE 1/2 POR METRO LNA20-300" ValorUnitario="6.72" Importe="6.72">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="6.72" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1.0752" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="26121600" NoIdentificacion="CONDU-D12" Cantidad="0.04" ClaveUnidad="KGM" Unidad="KG" Descripcion="CABLE DESNUDO Nº12 CONDUMEX KILO" ValorUnitario="259.20" Importe="10.37">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="10.37" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1.6592" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31201502" NoIdentificacion="3M-1600R" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="CINTA TEMFLEX 1600 ROJA .019 X 18M" ValorUnitario="18.31" Importe="18.31">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="18.31" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="2.9296" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="31201502" NoIdentificacion="3M-1600VE" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="CINTA TEMFLEX 1600 VERDE .019 X 18M" ValorUnitario="20.01" Importe="20.01">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="20.01" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="3.2016" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="39122216" NoIdentificacion="FZA551" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="PLACA C/PULSADOR TIMBRE 10A 127V" ValorUnitario="36.89" Importe="36.89">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="36.89" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="5.9024" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="40141756" NoIdentificacion="CHALUPA-3/4" Cantidad="2" ClaveUnidad="H87" Unidad="Pieza" Descripcion="CAJA CHALUPA GALVANIZADA P/ 1/2- 3/4&quot; CAL 24" ValorUnitario="4.34" Importe="8.68">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="8.68" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="1.3888" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="39121101" NoIdentificacion="QOD2S" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="CENTRO DE CARGA DOMEST SD1 SOBREPONER SQ" ValorUnitario="166.46" Importe="166.46">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="166.46" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="26.6336" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+    <cfdi:Concepto ClaveProdServ="39121640" NoIdentificacion="QO150" Cantidad="1" ClaveUnidad="H87" Unidad="Pieza" Descripcion="INTERRUPTOR TERMO MAGNETICO 50 AMP SQD" ValorUnitario="128.25" Importe="128.25">
+      <cfdi:Impuestos>
+        <cfdi:Traslados>
+          <cfdi:Traslado Base="128.25" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="20.52" />
+        </cfdi:Traslados>
+      </cfdi:Impuestos>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos TotalImpuestosTrasladados="178.17">
+    <cfdi:Traslados>
+      <cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="178.17" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="1.1" UUID="FBC71617-76C9-0E4F-AF2A-CB8228522629" FechaTimbrado="2021-03-04T14:46:48" RfcProvCertif="SCD110105654" SelloCFD="cB/Tiy/PWnFowTbSVONnwWf6ClPkx3Bg61u8lgID14Z0cTkJAoLq/yNa1j9k7d+vZPTtC6VKhLKUFO8dm7YITZAhZnQPJGRn2mrJ1LNkbGrfO9BAtFSxuiGlZK7qvRORA2Z3g5oFhOgOMZl5YZgLq0ZA++izoEVl8gqyGngJVCL8AFsEaGatU0utg6Caxw7SwDTsR8DHWlBzggYCfmdBUhFf7xV7BGapQ1WmPwI07TgTOvmAF1JnJKT2HV5e81Ad9ykG2GjjX0tmgCsbjc05epPKKvfUTIu4FyX0tpQmDyd0nWQIckJICisvt5FROW+9LFRjnMVdRF9H6ALMXyqt4A==" NoCertificadoSAT="00001000000502000436" SelloSAT="lkfUh4UkjGfPOn08TLjosZgQ4gc97NVjraHzD5adDQszOx7/sukt7jrS0E9RdFsnMjm8jU0QQk8Laz1obZBuva3XCIEFm4vOqxC2KR8dBD1941N4jUV0eNu25FOsViKtK+biUvIi9LelUGjAfM4P3pIb5+ifMouOKKF31ZRynWvmSta81PhL+zPpbjEzytfCoA4emJxkr++bweIWg778sCNfUWJeo6b3ifjPc+yr5y2POllobD/q0Fl+cfE95Jj+3SjV4663ZTlPiQLkrNicA4At2pJmD5hpmO73USV4fdESkdsuXgTnouoIUSl2XeivqcHdtqfKXPCDilAlyvNZLw==" />
+</cfdi:Complemento></cfdi:Comprobante>

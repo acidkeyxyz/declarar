@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="3.3" Serie="M0" Folio="78362" Fecha="2021-08-13T09:32:23" Sello="EtXwRl6M1wDGFVNAhifqiWa0x9auaOy7WYUpHtUlAUdnamHocVblqhYzN1lSHQXifoWcjGCDYyadRoRWEw0lB//0e6rotjM6bBVUf9raH0QRrILLOy8DTK60riMAzYKx4HTx+lBcowCizNReqWd3l0MVqmv5EcMRZULlJJFXWYMlCON5qMK35KagDn/qR580+LZkf04+0rqheLzBTU7kNQ+VocIfKUhs+97IWFY3rqmfR5aO4Z+JbY1cUSgUpCljpFz8j9yVu1HPmYwH2OD4sdL7RxqXOUog4ft6yz+wxinGPeNa8iXjrmuikNFOFBOj+ZASe8BGOflEicjfc+TrNA==" FormaPago="01" NoCertificado="00001000000408437000" Certificado="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" CondicionesDePago="CONTADO" SubTotal="237.94" Moneda="MXN" Total="276.01" TipoDeComprobante="I" MetodoPago="PUE" LugarExpedicion="45080" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+	<cfdi:Emisor Rfc="GFC080612KG3" Nombre="GRUPO FERRETERIA CALZADA SA DE CV" RegimenFiscal="601" />
+	<cfdi:Receptor Rfc="LOPB9207079M3" Nombre="BERENICE LOPERENA PEREZ" UsoCFDI="G01" />
+	<cfdi:Conceptos>
+		<cfdi:Concepto ClaveProdServ="47131604" NoIdentificacion="C1000157" Cantidad="1.000000" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="BARRE BARRE ESCOBA ABANICO BODEGUERA" ValorUnitario="56.900000" Importe="56.900000">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="56.900000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="9.104000" />
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+		<cfdi:Concepto ClaveProdServ="27112001" NoIdentificacion="HC54593" Cantidad="1.000000" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="SURTEK MACHETE TIPO RECTO 26" ValorUnitario="86.210000" Importe="86.210000">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="86.210000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="13.793600" />
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+		<cfdi:Concepto ClaveProdServ="27112027" NoIdentificacion="C7001459" Cantidad="1.000000" ClaveUnidad="H87" Unidad="PIEZAS" Descripcion="SURTEK ESCOBA METALICA TIPO 130595" ValorUnitario="94.830000" Importe="94.830000">
+			<cfdi:Impuestos>
+				<cfdi:Traslados>
+					<cfdi:Traslado Base="94.830000" Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="15.172800" />
+				</cfdi:Traslados>
+			</cfdi:Impuestos>
+		</cfdi:Concepto>
+	</cfdi:Conceptos>
+	<cfdi:Impuestos TotalImpuestosTrasladados="38.07">
+		<cfdi:Traslados>
+			<cfdi:Traslado Impuesto="002" TipoFactor="Tasa" TasaOCuota="0.160000" Importe="38.07" />
+		</cfdi:Traslados>
+	</cfdi:Impuestos>
+	<cfdi:Complemento>
+		<tfd:TimbreFiscalDigital xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" RfcProvCertif="CCF1011111K9" SelloSAT="McoWB4IDrF6AL+9x/HTi4at6M3Qj+JUb3y54BaFyZIDgnmSYUGEYVoMicmVVqheZnWn84AE8cI59VoMbXD4IwZ+wNu+GJgoNTOL/Pg+rQa/5LrL8RezXwSYll6cR/f4DhEvOtefkJqW0JT3zx5qI/KzGiVdZS3KNylg3VGKIsqW+97hY7frBqdi9nBfbovF8zTxOXtdWZAcpBOjCTmrhaom7OiZhCH9wk6K0aQm1lYLfBZM8MZ7A/iaGReBqY7JrOo5UGFyxtxR7/xWtOFQW6JNi2R3kplw9Dd7y4OrUi/mfiDs2k+EJOmeTy1qYuPzFcX9HjBCB/42ZXuPYoFbjSw==" NoCertificadoSAT="00001000000407404815" FechaTimbrado="2021-08-13T13:50:40" UUID="BABAB53A-7B0D-4A69-BC36-AB05AD033C45" SelloCFD="EtXwRl6M1wDGFVNAhifqiWa0x9auaOy7WYUpHtUlAUdnamHocVblqhYzN1lSHQXifoWcjGCDYyadRoRWEw0lB//0e6rotjM6bBVUf9raH0QRrILLOy8DTK60riMAzYKx4HTx+lBcowCizNReqWd3l0MVqmv5EcMRZULlJJFXWYMlCON5qMK35KagDn/qR580+LZkf04+0rqheLzBTU7kNQ+VocIfKUhs+97IWFY3rqmfR5aO4Z+JbY1cUSgUpCljpFz8j9yVu1HPmYwH2OD4sdL7RxqXOUog4ft6yz+wxinGPeNa8iXjrmuikNFOFBOj+ZASe8BGOflEicjfc+TrNA==" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" />
+	</cfdi:Complemento>
+</cfdi:Comprobante>
