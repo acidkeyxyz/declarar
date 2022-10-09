@@ -1,3 +1,4 @@
+const defaultSkipList = 'Pago,Pago de nmina';
 const isSkipped = (descripcion, skipList) => {
 	if (skipList === null) {
 		return false;
@@ -9,7 +10,10 @@ const normalizeParentFolder = (param) => {
 	return param.endsWith('/') ? param : param + '/';
 };
 const normalizeSkipList = (param) => {
-	return param === undefined ? null : param.split(',');
+	if (param === undefined) {
+		return defaultSkipList;
+	}
+	return param.split(',');
 };
 const getFileName = (filePath, withExtension = true) => {
 	if (filePath.length === null || filePath.length === undefined || filePath.length === '') {
@@ -22,10 +26,13 @@ const getFileName = (filePath, withExtension = true) => {
 	const endFilename = withExtension ? filePath.length : filePath.lastIndexOf('.');
 	return filePath.substring(startFileName + 1, endFilename);
 };
-
+const isSkippedFile = (fileName) => {
+	return !fileName.startsWith('.');
+};
 module.exports = {
 	isSkipped,
 	normalizeParentFolder,
 	normalizeSkipList,
 	getFileName,
+	isSkippedFile,
 };

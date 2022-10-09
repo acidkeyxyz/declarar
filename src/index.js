@@ -1,13 +1,22 @@
 const xml2js = require('xml2js');
 const fs = require('fs');
+const bigDecimal = require('js-big-decimal');
 const {exit} = require('process');
-const {firstRow, columnNames, getCodigoImpuesto, normalizeDesc} = require('./utils/SatUtils');
+const {
+	firstRow,
+	columnNames,
+	convertirCodigoImpuesto,
+	normalizeDesc,
+	formatMoney,
+} = require('./utils/SatUtils');
 const {
 	isSkipped,
 	normalizeParentFolder,
 	normalizeSkipList,
 	getFileName,
+	isSkippedFile,
 } = require('./utils/FileUtils');
+const {userInfo} = require('os');
 
 /******************                            ****************
  ******************           MAIN             ****************
@@ -26,66 +35,77 @@ const parentFolder = normalizeParentFolder(process.argv[2]);
 const skipList = normalizeSkipList(process.argv[3]);
 
 console.log(columnNames.join(','));
-
+let gastosTotal = new bigDecimal(0.0);
+let ivaTotal = new bigDecimal(0.0);
+let gastoMasIva = new bigDecimal(0.0);
 fs.readdir(parentFolder, (err, files) => {
 	let index = 2;
 	files.forEach((file) => {
 		if (file.endsWith('.xml')) {
 			const currentFile = parentFolder + file;
 			let xml_string = fs.readFileSync(currentFile, 'utf-8');
-			const uuid = getFileName(currentFile,false);
-			parser.parseString(xml_string, function (error, result) {
-				if (error === null) {
-					const comprobante = getAttribute(result, 'Comprobante');
-					let conceptos = getAttribute(comprobante, 'Conceptos');
-					let fecha = comprobante['ATTR']['Fecha'];
+			const uuid = getFileName(currentFile, false);
+			if (isSkippedFile(uuid)) {
+				parser.parseString(xml_string, function (error, result) {
+					if (error === null) {
+						const comprobante = getAttribute(result, 'Comprobante');
+						let conceptos = getAttribute(comprobante, 'Conceptos');
+						let fecha = comprobante['ATTR']['Fecha'];
 
-					let concepto = getAttribute(conceptos[0], 'Concepto');
-					let usoCFDI = comprobante['cfdi:Receptor'][0]['ATTR']['UsoCFDI'];
-					let rfcEmisor = comprobante['cfdi:Emisor'][0]['ATTR']['Rfc'];
-					for (let i = 0; i < concepto.length; i++) {
-						try {
-							const descripcion = normalizeDesc(concepto[i]['ATTR']['Descripcion']);
-							const impuestosObj = concepto[i]['cfdi:Impuestos'] || concepto[i]['Impuestos'];
-							let importeBasePrimitive;
-							if (descripcion === 'Pago') {
-								importeBasePrimitive = 0.0;
-							} else {
+						let concepto = getAttribute(conceptos[0], 'Concepto');
+						let usoCFDI = comprobante['cfdi:Receptor'][0]['ATTR']['UsoCFDI'];
+						let rfcEmisor = comprobante['cfdi:Emisor'][0]['ATTR']['Rfc'];
+						for (let i = 0; i < concepto.length; i++) {
+							try {
+								const descripcion = normalizeDesc(concepto[i]['ATTR']['Descripcion']);
+								const impuestosObj = concepto[i]['cfdi:Impuestos'] || concepto[i]['Impuestos'];
 								const base = getAttributeFromObj(impuestosObj, 'Base', 0);
 								const valorUnitario = concepto[i]['ATTR']['ValorUnitario'];
-								importeBasePrimitive = parseFloat(base || valorUnitario);
-							}
-							const impuestoPrimitive = parseFloat(getAttributeFromObj(impuestosObj, 'Importe', 0));
-							const codigoImpuesto = getAttributeFromObj(impuestosObj, 'Impuesto', '002');
-							if (!isSkipped(descripcion, skipList)) {
-								const tipoImpuesto = getCodigoImpuesto(codigoImpuesto);
-								if (index === firstRow) {
-									gastosTotal = `=E${index}`;
-									ivaTotal = `=G${index}`;
-								} else {
-									gastosTotal = `=E${index}+I${index - 1}`;
-									ivaTotal = `=G${index}+J${index - 1}`;
-								}
-								const totalRow = `=G${index}+E${index}`;
-								const gastoMasIva = `=I${index}+J${index++}`;
-								console.log(
-									`${fecha},${uuid},${usoCFDI},${rfcEmisor},${descripcion},${importeBasePrimitive},${tipoImpuesto},${impuestoPrimitive},${totalRow},${gastosTotal},${ivaTotal},${gastoMasIva}`
+								const importeBase = new bigDecimal(base || valorUnitario);
+								const impuestoActual = new bigDecimal(
+									getAttributeFromObj(impuestosObj, 'Importe', 0)
 								);
+								const codigoImpuesto = getAttributeFromObj(impuestosObj, 'Impuesto', '002');
+								if (!isSkipped(descripcion, skipList)) {
+									const tipoImpuesto = convertirCodigoImpuesto(codigoImpuesto);
+									gastosTotal = gastosTotal.add(importeBase);
+									ivaTotal = ivaTotal.add(impuestoActual);
+									const totalRow = importeBase.add(impuestoActual);
+									gastoMasIva = gastoMasIva.add(totalRow);
+									const row = [
+										fecha,
+										uuid,
+										usoCFDI,
+										rfcEmisor,
+										descripcion,
+										importeBase.getValue().replace('.', ','),
+										tipoImpuesto,
+										impuestoActual.getValue().replace('.', ','),
+										totalRow.getValue().replace('.', ','),
+										gastosTotal.getValue().replace('.', ','),
+										ivaTotal.getValue().replace('.', ','),
+										gastoMasIva.getValue().replace('.', ','),
+									];
+									console.log(`"${row.join('","')}"`);
+								}
+							} catch (err) {
+								//console.log('Error with file::'+parentFolder+file);
+								console.error(err);
 							}
-						} catch (err) {
-							//console.log('Error with file::'+parentFolder+file);
-							console.error(err);
 						}
+					} else {
+						console.log(error);
 					}
-				} else {
-					console.log(error);
-				}
-			});
+				});
+			}
 		}
 	});
 });
 
 const getAttribute = (parent, field) => {
+	if (!parent) {
+		return null;
+	}
 	return parent[`cfdi:${field}`] || result[`${field}`];
 };
 
