@@ -26,13 +26,13 @@ const getFileName = (filePath, withExtension = true) => {
 	const endFilename = withExtension ? filePath.length : filePath.lastIndexOf('.');
 	return filePath.substring(startFileName + 1, endFilename);
 };
-const isSkippedFile = (fileName) => {
-	return !fileName.startsWith('.');
+const isHiddenFile = (fileName) => {
+	return fileName.startsWith('.');
 };
 module.exports = {
 	isSkipped,
 	normalizeParentFolder,
 	normalizeSkipList,
 	getFileName,
-	isSkippedFile,
+	isHiddenFile,
 };
